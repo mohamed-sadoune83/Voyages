@@ -8,7 +8,7 @@
 }
 
 .hero-japan {
-    background: url('../img/pays/hero-japan.jpg') no-repeat center center;
+    background: url('../img/pays/japon-pascal/hero-japan.jpg') no-repeat center center;
     min-height: 60vh;
     color: white;
     background-size: cover;
@@ -37,6 +37,14 @@
     overflow: hidden;
     height: 100%;
 }
+
+.culture-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
 
 .culture-card:hover {
     transform: translateY(-5px);
