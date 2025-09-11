@@ -1,0 +1,150 @@
+:root {
+    --asian-red: #D32F2F;
+    --asian-gold: #FFD700;
+    --asian-green: #2E7D32;
+    --asian-blue: #1976D2;
+    --japanese-red: #C62D42;
+    --japanese-white: #FFFFFF;
+}
+
+.hero-japan {
+    background: url('../img/pays/hero-japan.jpg') no-repeat center center;
+    min-height: 60vh;
+    color: white;
+    background-size: cover;
+}
+
+.hero-japan-content {
+    padding: 30px;
+    margin-top: auto;
+    color: var(--japanese-red);
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.8);
+}
+
+.hero-japan-content>p{
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.8);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.culture-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.culture-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.btn-japanese {
+    background: linear-gradient(45deg, var(--japanese-red), var(--asian-gold));
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+
+.btn-japanese:hover {
+    background: linear-gradient(45deg, #A02037, #FFC107);
+    color: white;
+}
+
+.section-title {
+    position: relative;
+    display: inline-block;
+    color: var(--japanese-red);
+    font-weight: bold;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, var(--japanese-red), var(--asian-gold));
+}
+
+.japanese-flag {
+    width: 60px;
+    height: 40px;
+    background: white;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.japanese-flag::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    background: var(--japanese-red);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tradition-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    background: linear-gradient(45deg, var(--japanese-red), var(--asian-gold));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: var(--japanese-red);
+}
+
+.timeline-item {
+    border-left: 3px solid var(--japanese-red);
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -8px;
+    top: 0;
+    width: 13px;
+    height: 13px;
+    background: var(--japanese-red);
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #2c3e50;
+}
+
+.japanese-pattern {
+    background-image: 
+        radial-gradient(circle at 25% 25%, rgba(198, 45, 66, 0.1) 2px, transparent 2px),
+        radial-gradient(circle at 75% 75%, rgba(255, 215, 0, 0.1) 2px, transparent 2px);
+    background-size: 50px 50px;
+}
+
+.stat-card {
+    background: linear-gradient(135deg, #fff, #f8f9fa);
+    border: 1px solid #e9ecef;
+    border-radius: 15px;
+    padding: 2rem;
+    text-align: center;
+    height: 100%;
+}
+
+.stat-number {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--japanese-red);
+}
