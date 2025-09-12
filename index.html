@@ -61,6 +61,11 @@
                             <i class="bi bi-palette me-1"></i>Culture
                         </a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">
+                            <i class="bi bi-envelope me-1"></i>Contact
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -85,8 +90,8 @@
                         Commencer l'exploration
                     </a>
                 </div>
-                <div class="col-lg-6 text-center">
-                    <i class="bi bi-globe-asia-australia" style="font-size: 15rem; opacity: 0.8;"></i>
+                <div class="col-lg-6 text-center logo-container">
+                    <img src="assets/img/asie.png" alt="">
                 </div>
             </div>
         </div>
@@ -243,6 +248,53 @@
                         Des saveurs uniques, des épices parfumées et des techniques
                         culinaires raffinées à découvrir.
                     </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-title mb-4">Contactez-Nous</h2>
+                    <p class="lead text-muted mb-4">
+                        N'hésitez pas à nous écrire.
+                        Nous serons ravis de vous aider dans votre découverte de l'Asie.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <form action="#" method="post" class="p-4 border rounded bg-white shadow-sm">
+                        <div class="mb-3">
+                            <label for="nom" class="form-label">Nom</label>
+                            <input type="text" class="form-control" id="nom" name="nom" placeholder="Votre nom" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Adresse e-mail</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Votre e-mail" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="sujet" class="form-label">Sujet</label>
+                            <input type="text" class="form-control" id="sujet" name="sujet" placeholder="Sujet de votre message">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" placeholder="Votre message" required></textarea>
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-asian px-5">
+                                <i class="bi bi-send me-2"></i>Envoyer
+                            </button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>

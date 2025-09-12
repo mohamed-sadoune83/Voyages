@@ -6,14 +6,39 @@
 }
 
 .hero-section {
-    background: linear-gradient(135deg, var(--asian-red), var(--asian-blue));
-    min-height: 70vh;
+    position: relative;
+    background: url('../img/ban.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 60vh;
     color: white;
+    z-index: 1;
 }
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.hero-section .container {
+    position: relative;
+    z-index: 2;
+}
+
 
 .navbar-brand {
     font-weight: bold;
     font-size: 1.5rem;
+}
+
+.logo-container img {
+    max-width: 400px;
+    height: auto;
 }
 
 .country-card {
