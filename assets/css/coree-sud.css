@@ -32,20 +32,18 @@
 }
 
 #titre {
+    /* police utilisé via google font*/
     font-family: "Raleway", sans-serif;
     color: var(--asian-red);
-    /* couleur de fond */
-    /* espace autour du texte */
-    /* arrondi des bords */
     text-align: center;
+     /* texte centré */
     width: 500px;
-    margin: auto;
-    /* texte centré */
-    /* la boîte s’adapte à la taille du texte */
-    font-family: "Raleway", sans-serif;
+    margin: auto;   
     background-color: #fff;
+    /* couleur de fond */
     padding: 20px 40px;
     border-radius: 30px;
+    /* arrondi des bords */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     /* petite ombre douce */
 
