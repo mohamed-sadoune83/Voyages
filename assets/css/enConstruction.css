@@ -1,0 +1,23 @@
+body {
+        text-align: center;
+        font-family: 'Playfair Display', serif;
+        background-color:#1a7ccc;
+        color: #FEA200;
+        height: 110vh;
+}
+.titleContainer {
+        margin-top: 5rem;
+}
+.title {
+        font-size: 2rem;
+        text-transform: uppercase;
+        text-shadow: 5px 5px 10px black;
+        margin-bottom: 1rem;
+}
+.constructionImg {
+        width: 80%;
+        height: 20rem;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px black;
+        margin-bottom: 2rem;
+}
