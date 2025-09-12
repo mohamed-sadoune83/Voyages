@@ -18,6 +18,8 @@
         rel="stylesheet">
     <!-- Style CSS -->
     <link rel="stylesheet" href="assets/css/coree-sud.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -53,12 +55,17 @@
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#pays">Voir tous les pays</a></li>
+                            <li><a class="dropdown-item" href="index.html#pays">Voir tous les pays</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#culture">
                             <i class="bi bi-palette me-1"></i>Culture
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact">
+                            <i class="bi bi-envelope me-1"></i>Contact
                         </a>
                     </li>
                 </ul>
@@ -75,67 +82,56 @@
         </div>
     </header>
 
-    <!-- Section Présentation -->
-    <section class="py-5">
-        <div class="container">
-            <div class="row">
-
-            </div>
-        </div>
-    </section>
-
     <!-- Section Pays -->
     <section id="pays" class="py-5 bg-light">
         <div class="container">
-        </div>
-    </section>
-
-    <!-- Section Culture -->
-    <section id="culture" class="py-5">
-        <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="section-title">Richesse Culturelle</h2>
-            </div>
-
+            <h1 id="titre">Le saviez-vous?</h1>
+            <p id="phrase-mc" class="text-center mt-3">La corée est un pays très développé ce qui influence grandement
+                le monde dans différentes
+                catégories : </p>
             <div class="row g-4">
-                <div class="col-md-4 text-center">
-                    <div class="mb-3">
-                        <i class="bi bi-building" style="font-size: 3rem; color: var(--asian-red);"></i>
+                <div class="col-lg-3 esport">
+                    <h2 class="titre-image mt-3"> Esport</h2>
+                    <div class="img-fluid mb-5 mt-3">
+                        <img src="/assets/img/pays/coree-camelia/skt-t1.jpg" alt="#">
                     </div>
-                    <h4>Architecture</h4>
-                    <p class="text-muted">
-                        Des pagodes ancestrales aux gratte-ciels futuristes,
-                        l'architecture asiatique raconte l'histoire du continent.
-                    </p>
+                    <div class="img-fluid mb-5">
+                        <img src="/assets/img/pays/coree-camelia/gen-g.png" alt="#">
+                    </div>
                 </div>
-
-                <div class="col-md-4 text-center">
-                    <div class="mb-3">
-                        <i class="bi bi-palette" style="font-size: 3rem; color: var(--asian-gold);"></i>
+                <div class="col-lg-3 gastro">
+                    <h2 class="titre-image mt-3"> Gastronomie</h2>
+                    <div class="img-fluid mb-5 mt-3">
+                        <img src="/assets/img/pays/coree-camelia/tteokbokki.png" alt="#">
                     </div>
-                    <h4>Arts & Traditions</h4>
-                    <p class="text-muted">
-                        Calligraphie, arts martiaux, céramique et bien d'autres expressions
-                        artistiques millénaires.
-                    </p>
+                    <div class="img-fluid mb-5">
+                        <img src="/assets/img/pays/coree-camelia/bulgogi.png" alt="#">
+                    </div>
                 </div>
-
-                <div class="col-md-4 text-center">
-                    <div class="mb-3">
-                        <i class="bi bi-fork-knife" style="font-size: 3rem; color: var(--asian-green);"></i>
+                <div class="col-lg-3 kbeauty">
+                    <h2 class="titre-image mt-3"> K-Beauty</h2>
+                    <div class="img-fluid mb-5 mt-3">
+                        <img src="/assets/img/pays/coree-camelia/yepoda.png" alt="#">
                     </div>
-                    <h4>Gastronomie</h4>
-                    <p class="text-muted">
-                        Des saveurs uniques, des épices parfumées et des techniques
-                        culinaires raffinées à découvrir.
-                    </p>
+                    <div class="img-fluid mb-5">
+                        <img src="/assets/img/pays/coree-camelia/kbeauty.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 kpop">
+                    <h2 class="titre-image mt-3">K-POP</h2>
+                    <div class="img-fluid mb-5 mt-3">
+                        <img src="/assets/img/pays/coree-camelia/skz-karma.jpg" alt="#">
+                    </div>
+                    <div class="img-fluid mb-5">
+                        <img src="/assets/img/pays/coree-camelia/twice.png" alt="#">
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer id="contact" class="py-5 text-white">
+     <footer id="contact" class="py-5 text-white">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 mb-4">
@@ -159,15 +155,21 @@
                 </div>
 
                 <div class="col-lg-4 mb-4">
-                    <h5 class="mb-3">Contact</h5>
-                    <p class="text-light mb-2">
-                        <i class="fas fa-envelope me-2"></i>
-                        contact@decouverte-asie.fr
-                    </p>
-                    <p class="text-light">
-                        <i class="fas fa-users me-2"></i>
-                        Projet étudiant collaboratif
-                    </p>
+                    <h5 class="mb-3">Développeurs</h5>
+                    <ul class="list-unstyled text-light">
+                        <li>
+                            <i class="bi bi-link me-2"></i>Pascal Fortunati - <a href="https://github.com/pascal-fortunati" class="text-light text-decoration-none" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        </li>
+                        <li>
+                            <i class="bi bi-link me-2"></i>Mohamed Sadoune - <a href="https://github.com/mohamed-sadoune83" class="text-light text-decoration-none" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        </li>
+                        <li>
+                            <i class="bi bi-link me-2"></i>Camélia Saadoun - <a href="https://github.com/camelia-saadoun" class="text-light text-decoration-none" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        </li>
+                        <li>
+                            <i class="bi bi-link me-2"></i>Jean-denis Saucy - <a href="https://github.com/jean-denissaucy" class="text-light text-decoration-none" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
 

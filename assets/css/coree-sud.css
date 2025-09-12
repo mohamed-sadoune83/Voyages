@@ -5,10 +5,20 @@
     --asian-blue: #1976D2;
 }
 
-.hero-section {
-    background: linear-gradient(135deg, var(--asian-red), var(--asian-blue));
+/* .hero-section {
     min-height: 70vh;
     color: white;
+    background-image: url('/assets/img/pays/coree-camelia/seoul.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.hero-section {
+    position: relative;
+    background: url('../img/pays/coree-camelia/seoul.jpg') no-repeat center 30%;
+    background-size: cover;
+    min-height: 70vh;
+    z-index: 1;
 }
 
 .navbar-brand {
@@ -26,6 +36,52 @@
 .country-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+#titre {
+    /* police utilisé via google font*/
+    font-family: "Raleway", sans-serif;
+    color: var(--asian-red);
+    text-align: center;
+     /* texte centré */
+    width: 500px;
+    margin: auto;   
+    background-color: #fff;
+    /* couleur de fond */
+    padding: 20px 40px;
+    border-radius: 30px;
+    /* arrondi des bords */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* petite ombre douce */
+
+}
+
+#phrase-mc {
+    font-family: "Raleway", sans-serif;
+}
+
+.row {
+    font-family: "Raleway", sans-serif;
+    font-style: oblique;
+}
+
+/* Aligne toutes les colonnes sur la même hauteur */
+#pays .col-lg-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Pour que les images gardent une taille uniforme */
+#pays img {
+    width: 100%;
+    /* prend toute la largeur de la colonne */
+    height: 200px;
+    /* choisis une hauteur fixe */
+    object-fit: cover;
+    /* recadre proprement sans déformer */
+    border-radius: 10px;
+    /* optionnel pour arrondir un peu */
 }
 
 .btn-asian {

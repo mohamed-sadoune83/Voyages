@@ -5,10 +5,72 @@
     --asian-blue: #1976D2;
 }
 
-.hero-section {
-    background: linear-gradient(135deg, var(--asian-red), var(--asian-blue));
-    min-height: 70vh;
-    color: white;
+.img-thailande {
+    height: 10rem;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 10px 10px 10px cornflowerblue;
+    
+    
+
+}
+
+.lien:hover{
+
+    color: #B71C1C;
+}
+
+.container-principal {
+
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    justify-content: center;
+    width: 100%;
+    gap: 2rem;
+
+}
+
+.container-culture {
+
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: #1976D2;
+}
+
+.container-monument {
+
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: #1976d249;
+}
+
+.container-sport {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+}
+
+.text {
+
+    width: 100%;
+
+}
+
+.bloc{
+    height:40rem ;
+    width: 100%;
+}
+.carousel-item{
+
+    margin-top: 4rem;
 }
 
 .navbar-brand {
