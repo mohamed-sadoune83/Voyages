@@ -21,6 +21,7 @@ body {
 .heroVideo {
 	width: 100%;
 	object-fit: cover;
+	height: 400px;
 }
 
 /* Welcome Area */
