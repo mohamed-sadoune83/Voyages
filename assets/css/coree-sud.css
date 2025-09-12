@@ -9,7 +9,7 @@
     background: linear-gradient(135deg, var(--asian-red), var(--asian-blue));
     min-height: 70vh;
     color: white;
-    background-image: url('/assets/img/coree-camelia/seoul.jpg');
+    background-image: url('/assets/img/pays/coree-camelia/seoul.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
