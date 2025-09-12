@@ -14,7 +14,7 @@ body {
 	width: 100%;
 	margin: 0;
 }
-.videroContainer {
+.videoContainer {
 	width: 100%;
 	margin: 0;
 }
@@ -30,7 +30,7 @@ body {
 	text-align: center;
 	height: 100%;
 	padding: 1rem;
-	margin-top: -3.2rem;
+	margin-top: -3.5rem;
 }
 .title {
 	font-size: 2rem;
