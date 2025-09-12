@@ -5,13 +5,20 @@
     --asian-blue: #1976D2;
 }
 
-.hero-section {
-    background: linear-gradient(135deg, var(--asian-red), var(--asian-blue));
+/* .hero-section {
     min-height: 70vh;
     color: white;
     background-image: url('/assets/img/pays/coree-camelia/seoul.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+} */
+
+.hero-section {
+    position: relative;
+    background: url('../img/pays/coree-camelia/seoul.jpg') no-repeat center 30%;
+    background-size: cover;
+    min-height: 70vh;
+    z-index: 1;
 }
 
 .navbar-brand {
